@@ -84,7 +84,7 @@ section {
 }
 
 #in-view {
-    display: flex;
+    display: none;
 }
 
 /* === Common for elements === */
