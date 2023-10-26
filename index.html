@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;600&family=Josefin+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" type="module"></script>
+    <title>Catapp2</title>
+</head>
+
+<body>
+
+    <section id="out-view">
+        <div class="container">
+            <h1 class="app-title">Cat_app</h1>
+
+            <div class="provider-buttons">
+                <button id="google-btn" class="provider-btn">
+                    <img src="https://seeklogo.com/images/G/google-logo-28FA7991AF-seeklogo.com.png"
+                         class="google-btn-logo">
+                        Sign in with Google
+                </button>
+            </div>
+        
+            <div class="auth-fields-and-buttons">
+                <input id="email-input" type="email" placeholder="Email">
+                <input id="password-input" type="password" placeholder="Password">
+
+                <button id="sign-btn" class="primary-btn">Sign in</button>
+                <button id="create-acc-btn" class="secondary-btn">Create account</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="in-view">
+        <div class="container">
+            <img src="assets/cat.png" class="cat-img">
+            <input type="text" id="input-field" placeholder="Bread">
+            <button id="add-button" class="primary-btn">Add to cart</button>
+            <ul id="shopping-list">
+            <!--Ul list render-->
+            </ul>
+        </div>
+    </section>
+</body>
+</html>
